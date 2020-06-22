@@ -1,0 +1,96 @@
+/* map */
+#canvas {float:left; position:relative; margin-left:50px; width:300px; height:420px; }
+#south {width:300px; height:400px; position: absolute; top: 10px; left: 0;}
+.map_bg	{background-color:#eee;border:1px solid #cdc8c0;}
+/*div.loc_div{ position: absolute; height:16px; background-color:#000; color:#fff; padding:2px 5px; text-align:center;border-radius:5px;}*/
+div.loc_div{ position: absolute; height:16px; color:#555;  padding:2px 5px; text-align:center;border-radius:5px;font-family:'돋움';font-weight:bold;}
+div.loc_div h4	{font-weight:bold;letter-spacing:-2px;font-size:11px;}
+div.loc_div > h4 > a{font-weight:bold;letter-spacing:-2px;font-size:11px;color:#555;text-decoration:none;}
+
+::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+  color: #968d7e;
+	padding-left:5px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #968d7e;
+	padding-left:5px;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: #968d7e;
+	padding-left:5px;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: #968d7e;
+	padding-left:5px;
+}
+
+::-ms-input-placeholder { /* Edge */
+  color: #968d7e;
+	padding-left:5px;
+}
+
+:placeholder-shown { /* Standard one last! */
+  color: #968d7e;
+	padding-left:5px;
+}
+
+.tit_category	{margin-top:140px;font-family:'맑은 고딕';}
+.tit_category > span.tit	{color:#4f3b1d;font-size:20px;display:inline-block;}
+.tit_category > span.desc	{color:#4f3b1d;font-size:15px;margin-left:15px;display:inline-block;}
+/* loc_01~17 서울, 부산, 대구, 인천, 광주, 대전, 울산, 세종, 경기, 강원, 충북, 충남, 전북, 전남, 경북, 경남, 제주 */
+#loc_01{ left:92px; top:102px; }/* 서울 */
+#loc_02{ left:210px; top:285px; }/* 부산*/
+#loc_03{ left:180px; top:240px; }/* 대구*/
+#loc_04{ left:70px; top:105px; }/* 인천   */
+#loc_05{ left:68px; top:282px; }/* 광주 */
+#loc_06{ left:110px; top:195px; }/* 대전 */
+#loc_07{ left:220px; top:255px; }/* 울산 */
+#loc_08{ left:110px; top:175px; }/* 세종 */
+#loc_09{ left:95px; top:130px; }/* 경기 */
+#loc_10{ left:146px; top:80px; }/* 강원 */
+#loc_11{ left:120px; top:160px; }/* 충북 */
+#loc_12{ left:68px; top:179px; }/* 충남 */
+#loc_13{ left:81px; top:241px; }/* 전북 */
+#loc_14{ left:70px; top:308px; }/* 전남 */
+#loc_15{ left:180px; top:185px; }/* 경북 */
+#loc_16{ left:144px; top:275px; }/* 경남 */
+#loc_17{ left:99px; top:370px; }/* 제주 */
+
+.selectbox2	{border:1px solid #999999;background-color:#f2f2f2;color:#000000;width:150px;height:30px;font-family:'맑은 고딕';}
+.inputbox2	{border:1px solid #a9a9a9;height:30px;width:332px;padding-left:5px;}
+
+#map_right_wrapper{float:left; margin-left:30px; width:350px;}
+.map_right_title1 {margin:20px 0 7px 0;}
+.map_right_title2 {margin:30px 0 7px 0;}
+
+#bo_sch { margin-bottom:10px;padding-top:5px;text-align:left; }
+#bo_sch legend {position:absolute;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999em;overflow:hidden}
+
+#bo_cate h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
+#bo_cate ul {margin-bottom:10px;padding-left:1px;width:100%;zoom:1}
+#bo_cate ul:after {display:block;visibility:hidden;clear:both;content:""}
+#bo_cate li {float:left; margin:3px 3px 3px 0}
+#bo_cate a {display:block;position:relative;margin-left:-1px;padding:6px 0 5px;width:90px;border:1px solid #ddd;background:#f7f7f7;color:#888;text-align:center;letter-spacing:-0.1em;line-height:1.2em;cursor:pointer}
+#bo_cate a:focus, #bo_cate a:hover, #bo_cate a:active {text-decoration:none}
+#bo_cate #bo_cate_on {z-index:2;border:1px solid #565e60;background:#333;color:#fff;font-weight:bold}
+
+.td_branch_img {} 
+.td_subject { }
+.td_branch_name {width:100px; text-align:left;}
+.td_branch_addr{width:260px;}
+a.list_branch_tit	{color:#4f3b1d;font-size:24px;}
+
+/* 게시글 보기 */
+#bo_v_info{margin-bottom:10px;}
+
+#bo_v_img_branch {float:left; margin:0 10px 10px 0;overflow:hidden;zoom:1}
+#bo_v_img_branch:after {display:block;visibility:hidden;clear:both;content:""}
+#bo_v_img_branch img {margin-bottom:20px;max-width:100%;height:auto}
+
+#bo_v_con_branch {float:left; margin:0; padding:0; list-style:none; width:70%;line-height:1.7em;word-break:break-all;overflow:hidden}
+#bo_v_con_branch li span.con_branch_title{display:inline-block; width:60px;}
+#bo_v_con_branch a {color:#000;text-decoration:underline}
+#bo_v_con_branch img {max-width:100%;height:auto}

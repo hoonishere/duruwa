@@ -1,0 +1,6 @@
+.admin_btn							{width:1200px; height:20px; line-height:20px; text-align:right; margin:0 auto;}
+
+.header_t							{width:1200px; margin:0px auto; padding:0px 0 15px 0;}
+.header_t:after						{width:100%; content:''; clear:both; display:block;}
+.header_logo						{width:178px; height:73px; float:left; } /*로고*/
+.header_gnb							{width:880px; float:right; margin-top:40px;}  /*네비게이션*/
