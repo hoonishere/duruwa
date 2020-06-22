@@ -1,0 +1,18 @@
+@charset "utf-8";
+.main-slider {position:relative;height:415px;overflow:hidden;}
+.main-slider .bxslider li {width:100%;height:415px;text-align:center;}
+.main-slider .bxslider li img {transition:0.4s ease-in-out;}
+.main-slider .bxslider li:hover img{/*transform:scale(1.02,1.02);*/}
+.main-slider .bx-wrapper {position:relative;margin:0 auto;text-align:center;}
+*:first-child+html .main-slider .bx-wrapper {text-align:left;}
+.main-slider .bx-wrapper .bx-controls {display:block;position:relative;top:-40px;left:0;bottom:0;z-index:100;text-align:center;}
+.main-slider .bx-wrapper .bx-pager {display:inline-block;zoom:1;*display:inline/*IE7 HACK*/;height:18px;vertical-align:middle;}
+.main-slider .bx-wrapper .bx-pager .bx-pager-item,
+.main-slider .bx-wrapper .bx-controls-auto .bx-controls-auto-item {display:inline-block;*zoom:1;*display:inline;}
+.main-slider .bx-wrapper .bx-pager.bx-default-pager a {display:block;width:40px;height:4px;margin:7px 10px 0 10px;background:#fff;-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)';filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50);opacity:0.5;text-indent:-9999px;outline:0;}
+.main-slider .bx-wrapper .bx-pager.bx-default-pager a.active {background:#fff;-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);opacity:1;}
+.main-slider .bx-wrapper .bx-controls-direction {display:none;}
+.main-slider .bx-wrapper .bx-controls-auto {float:left;display:inline-block;position:relative;left:50%;margin-left:-150px;overflow:hidden;width:26px;height:18px;margin-right:10px;vertical-align:middle;}/* 150630_2 */
+.main-slider .bx-wrapper .bx-controls-auto .bx-start {display:inline-block;width:26px;height:18px;background:url('./img/btn_control.png') no-repeat 0 -29px;text-indent:-9999px;outline:0;}
+.main-slider .bx-wrapper .bx-controls-auto a.active {display:none;}
+.main-slider .bx-wrapper .bx-controls-auto .bx-stop {display:inline-block;width:26px;height:18px;background:url('./img/btn_control.png') no-repeat -27px -29px;text-indent:-9999px;outline:0;}

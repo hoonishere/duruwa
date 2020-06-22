@@ -1,0 +1,48 @@
+.main_visual										{position:relative; min-width:1200px;margin:0 auto;}
+.main_center										{margin:0 auto;width:1200px;}
+
+
+.main_quick_banner				{background:#fff; padding:55px 0;}
+
+.main_board					{width:1200px; margin:20px auto; position:relative;}
+.main_board:after		{display:block; width:100%; clear:both; content:'';}
+
+.board_a						{float:left; width:380px;}
+.board_b						{float:left; width:680px; margin:0 20px;}
+.board_c						{float:right; width:98px; height:578px; border:1px solid #dfdfdf; background:#fff; border-radius:10px;}
+
+.board_a h1					{background:#eb5999; position:relative; padding:0px 0 0 20px; height:55px; border-radius:10px 10px 0 0; line-height:55px;}
+/*.board_a h1 a				{position:absolute; right:20px; top:0px;}*/
+.board_a1						{margin-bottom:20px;}
+.board_a1>div				{background:#fff; border-radius:0 0 10px 10px; height:205px; padding:10px 20px;}
+.board_a2>div				{background:#fff; border-radius:0 0 10px 10px; height:205px; padding:10px 20px;}
+
+div.bb_a						{margin-bottom:20px; width:680px; height:280px; border-radius:10px;}
+div.bb_a a					{display:block; width:680px; height:280px;}
+div.bb_b:after			{display:block; width:100%; clear:both; content:'';}
+div.bb_b div				{float:left; width:330px; height:280px; border-radius:10px;}
+div.bb_b div a			{display:block; width:330px; height:280px;}
+div.bb_b div:first-child			{margin-right:20px;}
+.board_c a					{display:block; text-align:center; height:94px; line-height:94px; border-top:1px solid #dfdfdf}
+.board_c a:hover		{background:#f8f8f8;}
+.board_c a:first-child		{border-top:0; border-radius:10px 10px 0 0;}
+
+
+.main_family				{background:#fff; padding:45px 0;}
+
+.main_text_bg				{background:url('/include/main/force/img/mb_bg.gif') repeat center top; height:830px; min-width:1200px;}
+.main_text					{position:relative; width:1200px; margin:0 auto;}
+.mt_title						{text-align:center; padding:70px 0 45px 0;}
+.mt_btn							{position:absolute; left:50%; margin-left:-96px; top:375px; z-index:99;}
+.mt_box>div					{float:left; width:590px; height:240px; background:url('/include/main/force/img/mb_bg1.png') repeat center top; position:relative; border-radius:10px;}
+.mt_box>div h1			{font-size:18px; font-weight:bold; letter-spacing:-1px; margin:50px 0 0 70px;}
+.mt_box>div p				{font-size:13px; color:#555; margin:20px 0 0 70px; width:340px; line-height:150%;}
+.mt_box:after				{display:block; width:100%; clear:both; content:'';}
+
+.mt_box_a						{margin:0 20px 20px 0; color:#189a99}
+.mt_box_b						{margin:0 0px 20px 0; color:#f76e2a}
+.mt_box_c						{margin:0 20px 0 0; color:#c72984}
+.mt_box_d						{margin:0 0px 0px 0; color:#ed1c24}
+
+.mt_img							{position:absolute; right:20px; top:50px; }
+.mt_box_a .mt_img		{top:20px;}
