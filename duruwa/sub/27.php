@@ -3,9 +3,9 @@
 
 
 <div class="s20_btn">
-	<a href="#" class="on20">화장품 제조 과정</a>
+	<a href="#" class="on20">맞춤형화장품</a>
 	<a href="#">뷰티 마케팅 교육과정</a>
-	<a href="#">강사트레이닝</a>
+	<a href="#">뷰티강사</a>
 </div>
 
 	<div class="s20">

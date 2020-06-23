@@ -9,12 +9,12 @@ add_stylesheet('<link rel="stylesheet" href="'.$main_skin_url.'/main_inc.css">',
 
 <div class="main_quick_banner" style="text-align:center;">
 	<a href="<?=G5_URL?>/sp.php?p=21"><img src="<?=$main_skin_url?>/img/qb1.jpg" alt="헤어"></a>
-	<a href="<?=G5_URL?>/sp.php?p=22"><img src="<?=$main_skin_url?>/img/qb2.jpg" alt="피부관리"></a>
-	<a href="<?=G5_URL?>/sp.php?p=23"><img src="<?=$main_skin_url?>/img/qb3.jpg" alt="메이크업"></a>
+	<a href="<?=G5_URL?>/sp.php?p=22"><img src="<?=$main_skin_url?>/img/qb2.jpg" alt="피부&왁싱"></a>
+	<a href="<?=G5_URL?>/sp.php?p=23"><img src="<?=$main_skin_url?>/img/qb3.jpg" alt="메이크업&속눈썹"></a>
 	<a href="<?=G5_URL?>/sp.php?p=24"><img src="<?=$main_skin_url?>/img/qb4.jpg" alt="네일아트"></a>
-	<a href="<?=G5_URL?>/sp.php?p=25"><img src="<?=$main_skin_url?>/img/qb5.jpg" alt="대학입시반"></a>
+	<a href="<?=G5_URL?>/sp.php?p=25"><img src="<?=$main_skin_url?>/img/qb5.jpg" alt="뷰티영재 대학입시반"></a>
 	<a href="<?=G5_URL?>/sp.php?p=26"><img src="<?=$main_skin_url?>/img/qb6.jpg" alt="속눈썹/왁싱"></a>
-	<a href="<?=G5_URL?>/sp.php?p=27"><img src="<?=$main_skin_url?>/img/qb7.jpg" alt="뷰티전문가"></a>
+	<a href="<?=G5_URL?>/sp.php?p=27"><img src="<?=$main_skin_url?>/img/qb7.jpg" alt="뷰티강사과정"></a>
 	<a href="#"><img src="<?=$main_skin_url?>/img/qb_prev.png"></a>
 	<a href="#"><img src="<?=$main_skin_url?>/img/qb_next.png"></a>
 </div>

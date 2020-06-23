@@ -17,12 +17,12 @@ $fsub_menu = array();
 // 2번째 메뉴 시작
 $fmenu[] = array("교육과정", G5_URL."/sp.php?p=21", "","","","");
 $fsub_menu[] = array("헤어", G5_URL."/sp.php?p=21", "","","","");
-$fsub_menu[] = array("피부관리", G5_URL."/sp.php?p=22", "","","","");
-$fsub_menu[] = array("메이크업", G5_URL."/sp.php?p=23", "","","","");
+$fsub_menu[] = array("피부&왁싱", G5_URL."/sp.php?p=22", "","","","");
+$fsub_menu[] = array("메이크업&속눈썹", G5_URL."/sp.php?p=23", "","","","");
 $fsub_menu[] = array("네일아트", G5_URL."/sp.php?p=24", "","","","");
-$fsub_menu[] = array("대학입시반", G5_URL."/sp.php?p=25", "","","","");
+$fsub_menu[] = array("뷰티영재 대학입시반", G5_URL."/sp.php?p=25", "","","","");
 $fsub_menu[] = array("속눈썹/왁싱", G5_URL."/sp.php?p=26", "","","","");
-$fsub_menu[] = array("뷰티전문가", G5_URL."/sp.php?p=27", "","","","");
+$fsub_menu[] = array("뷰티강사과정", G5_URL."/sp.php?p=27", "","","","");
 $fmenu[(count($fmenu)-1)][5] = $fsub_menu;
 $fsub_menu = array();
 // 2번째 메뉴 끝

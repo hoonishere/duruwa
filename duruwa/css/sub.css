@@ -41,7 +41,7 @@
 .s13_img				{float:left;}
 .s13_name				{float:left; margin-left:25px;}
 .s13_name h2		{color:#ed63a0; font-size:25px; font-family:'nsr'; line-height:100%;}
-.s13_name h3		{color:#000; font-size:25px; font-family:'sans-serif'; font-weight:bold; line-height:100%;}
+.s13_name h3		{color:#000; font-size:25px; font-family:'sans-serif'; font-weight:bold; line-height:100%; margin-top: 10px;}
 
 .s13_b_cont dl	{margin-top:20px;}
 .s13_b_cont dl dt	{color:#e27797; font-size:15px; font-weight:bold;}
