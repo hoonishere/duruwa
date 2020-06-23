@@ -8,7 +8,7 @@
 	</div>
 </div>
 
-<h2>해외 유학</h2>
+<h2>뷰티 강사</h2>
 
 <div class="s20_lr">
 	<div class="s20_left"><img src="<?= G5_URL ?>/img/s20_training_a.jpg"></div>

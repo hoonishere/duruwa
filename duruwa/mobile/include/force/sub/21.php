@@ -3,11 +3,11 @@
 
 <div class="s20_btn">
 	<a href="#" class="on20">국가자격증반</a>
-	<a href="#">미용 헤어</a>
+	<!-- <a href="#">미용 헤어</a> -->
 	<a href="#">두피모발</a>
 	<a href="#">업스타일</a>
-	<a href="#">업스타일반</a>
-	<a href="#">강사트레이닝</a>
+	<!-- <a href="#">업스타일반</a>
+	<a href="#">강사트레이닝</a> -->
 </div>
 
 
