@@ -109,7 +109,7 @@ $image_height = 195;
 	<li><a href="<?=G5_URL?>/sp.php?p=24" class="image"><img src="<?=G5_URL?>/include/main/force/img/qb4.jpg"></a></li>
 	<li><a href="<?=G5_URL?>/sp.php?p=25" class="image"><img src="<?=G5_URL?>/include/main/force/img/qb8.jpg"></a></li>
 	<li><a href="<?=G5_URL?>/sp.php?p=26" class="image"><img src="<?=G5_URL?>/include/main/force/img/qb6.jpg"></a></li>
-	<li><a href="<?=G5_URL?>/sp.php?p=28" class="image"><img src="<?=G5_URL?>/include/main/force/img/qb7.jpg"></a></li>
+	<li><a href="<?=G5_URL?>/sp.php?p=27" class="image"><img src="<?=G5_URL?>/include/main/force/img/qb7.jpg"></a></li>
 </ul>
 
 <script type="text/javascript" src="<?=$latest_skin_url?>/js/jquery.jcarousel.min.js"></script>
